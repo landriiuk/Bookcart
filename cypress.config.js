@@ -6,11 +6,14 @@ module.exports = {
     env: {
       username: '',
       password: 'Aa123123', 
-      baseUrl: { 
-        ui: 'https://bookcart.azurewebsites.net/',
-        apiCreate: 'https://bookcart.azurewebsites.net/api/User',
-        apiLogin: 'https://bookcart.azurewebsites.net/api/Login',
-      }
-    }
+      baseUrl: 'https://bookcart.azurewebsites.net/',
+    },
+    reporter: 'mochawesome',
+      reporterOptions: {
+      reportDir: 'cypress/results',
+      overwrite: false,
+      html: true,
+      json: true,
+    },
   },
 };

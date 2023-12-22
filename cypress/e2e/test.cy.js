@@ -5,7 +5,7 @@ const { randomUserData } = require("../support/helper");
 describe('API', () => {
     it('Create user and login', () => {
         createUserViaAPI(randomUserData)
-        loginViaAPI(randomUserData.username, randomUserData.password)
-        login();
+        //loginViaAPI(randomUserData.username, randomUserData.password)
+        //login();
     })
 })

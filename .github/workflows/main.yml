@@ -1,9 +1,6 @@
 name: Trigger BookCart Cypress tests
 on: 
   workflow_dispatch
-  push:
-    branches:
-      - main
 jobs:
   testing:
     runs-on: ubuntu-latest

@@ -9,7 +9,7 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     container:
-      image: cypress/browsers:node-14.17.0-ff91
+      image: cypress/browsers:node14.17.0
     steps:
       - name: Get repository test
         uses: actions/checkout@v4

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "cy:open:bookcart": "npx cypress open",
-    "cy:run:bookcart": "npx cypress run --browser edge",
+    "cy:run:bookcart": "npx cypress run --browser firefox",
     "generate:report":"npx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && npx marge mochawesome.json"
   }
 }
